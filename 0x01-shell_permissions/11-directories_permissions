@@ -1,2 +1,2 @@
 #!/bin/bash
-id -nu 
+chmod 711 .
