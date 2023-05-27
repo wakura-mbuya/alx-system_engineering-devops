@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | awk 'FS = ":" {print $5 ":" $6}' | sort | grep -v ^:
+cat /etc/passwd | awk 'FS = ":" {print $5":"$6}' | sort | grep -v ^:
